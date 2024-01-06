@@ -1,0 +1,17 @@
+Points of Murder Mystery:
+- A murder was committed on 15 Jan 2017.
+- There were two witnesses for the murder according to crime scene reports database.
+- crime scene reports databse was accessed to know about the witness name but they had their address hints.
+- Based on those hints, witnesses names from the person database was retrieved.(Annabel Miller,Morty Schapiro)
+- Based on the person id , witnesses statements from interview was retrieved.
+- According to witness , man who shot had a gym bag with it membership number and he worked out in gym on 09 Jan 2017
+- Gym database was accessed to match the membership number given by witness and turns out there two people with that almost matching number. But only one of them was murderer.
+- So gym checkin database was accessed to check their alibi for the time of murder but they both were not in gym. Again both Joe Germuska and Jeremy Bowers were in the suspects.
+- But using person id of both suspects, they were cross checked ith facebook event database to check if they were in any event.
+- Joe Germuska was at the event at the time of murder.
+- Therefore the murderer is 'Jeremy Bowers'. But the mystery is not solved.
+- According to statement of murderer , he was hired by woman and he gave descriptions of the woman and car she drove.
+- By running those details in drivers license database ,we figured they were three woman matching the description by Jeremy. But something he said gave us the another clue.
+- In his statement, Jeremy said the woman who hired him went to a facebook event three times in december.
+- With person ids of the all three women, was cross checked with facebook_event database and only one person came up three times in month of december.
+- So the person who hired Jeremy Bowers was 'Miranda Priestly'
